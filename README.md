@@ -1,8 +1,10 @@
 🎬 Movie Recommender System
+
 A personalized movie recommender system built using machine learning techniques and the TMDB API. This web app helps users find movies similar to their favorites, complete with posters and titles, all presented in a clean Streamlit interface.
 
 
 🚀 Features
+
 🔍 Content-Based Recommendation: Suggests movies based on textual and metadata similarity.
 
 🧠 Precomputed Similarity Matrix: Fast and efficient recommendations using cosine similarity.
@@ -11,16 +13,19 @@ A personalized movie recommender system built using machine learning techniques 
 
 🌐 Streamlit Web App: User-friendly and interactive interface for seamless movie discovery.
 
-🛠️ Tech Stack: 
-Python
 
-Pandas, NumPy, Scikit-learn
+
+🛠️ Tech Stack: 
+
+Python - Pandas, NumPy, Scikit-learn
 
 Streamlit – For the web interface
 
 TMDB API – For fetching movie posters
 
 Pickle – For loading precomputed similarity data
+
+
 
 📁 Project Structure
 perl
@@ -33,6 +38,8 @@ movie-recommender-system/
 ├── movies_dict.pkl                 # Serialized movie metadata
 ├── similarity.pkl                  # Serialized similarity matrix
 ├── README.md                       # Project documentation
+
+
 
 
 📦 Setup Instructions
