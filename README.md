@@ -11,7 +11,7 @@ A personalized movie recommender system built using machine learning techniques 
 
 🌐 Streamlit Web App: User-friendly and interactive interface for seamless movie discovery.
 
-🛠️ Tech Stack
+🛠️ Tech Stack: 
 Python
 
 Pandas, NumPy, Scikit-learn
@@ -24,8 +24,7 @@ Pickle – For loading precomputed similarity data
 
 📁 Project Structure
 perl
-Copy
-Edit
+
 movie-recommender-system/
 │
 ├── tmdb_5000_movies.csv            # Dataset
@@ -34,40 +33,31 @@ movie-recommender-system/
 ├── movies_dict.pkl                 # Serialized movie metadata
 ├── similarity.pkl                  # Serialized similarity matrix
 ├── README.md                       # Project documentation
+
+
 📦 Setup Instructions
+
 1. Clone the repository
-bash
-Copy
-Edit
+   
 git clone https://github.com/your-username/movie-recommender-system.git
 cd movie-recommender-system
+
 2. Install dependencies
 It’s recommended to use a virtual environment.
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Note: Create a requirements.txt with:
-
-txt
-Copy
-Edit
 streamlit
 pandas
 numpy
 scikit-learn
 requests
-3. Run the app
-bash
-Copy
-Edit
-streamlit run app.py
-🔑 TMDB API Key
-This project uses TMDB to fetch movie posters. Replace the API key in app.py:
 
-python
-Copy
-Edit
-API_KEY = "your_tmdb_api_key"
-You can get your free API key by creating an account here.
+
+3. Run the app : streamlit run app.py
+
+🔑 TMDB API Key
+This project uses TMDB to fetch movie posters. Replace the API key in app.py:   API_KEY = "your_tmdb_api_key"
+
+
+
